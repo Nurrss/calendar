@@ -49,7 +49,7 @@ import listPlugin from '@fullcalendar/list'
 import interactionPlugin, { Draggable } from '@fullcalendar/interaction'
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
-const API_KEY = "AIzaSyAB9RmKSSvZznt81ofOnUG7aXo7qkAUNJk"
+const API_KEY = import.meta.env.VITE_API_KEY;
 export default {
   components: {
     FullCalendar
